@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-11-24T00:35:00Z",
+    "timestamp_osm_base": "2026-11-25T00:38:20Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -49570,10 +49570,10 @@
     "seamark:information": "Shown 15 July to 1 June. Floodlit.",
     "seamark:light:character": "Fl",
     "seamark:light:colour": "green",
-    "seamark:light:height": "10",
+    "seamark:light:height": "9",
     "seamark:light:period": "3",
     "seamark:light:range": "6",
-    "seamark:light:reference": "L 4397",
+    "seamark:light:reference": "L 4399",
     "seamark:light:sequence": "0.7+(2.3)",
     "seamark:type": "light_minor",
     "source": "US NGA Pub. 115. 2010-09-09."
@@ -227655,25 +227655,6 @@
 },
 {
   "type": "node",
-  "id": 1293088892,
-  "lat": -7.1117341,
-  "lon": 112.6533851,
-  "tags": {
-    "seamark:beacon_special_purpose:colour": "yellow",
-    "seamark:light:character": "Fl",
-    "seamark:light:colour": "yellow",
-    "seamark:light:group": "4",
-    "seamark:light:height": "6",
-    "seamark:light:period": "15",
-    "seamark:light:range": "7",
-    "seamark:light:reference": "K 1158.51",
-    "seamark:light:sequence": "0.3+(0.7)+0.3+(0.7)+0.3+(0.7)+0.4+(11.6)",
-    "seamark:type": "beacon_special_purpose",
-    "source": "US NGA Pub. 112. 2009-11-12."
-  }
-},
-{
-  "type": "node",
   "id": 1293088896,
   "lat": -7.1322247,
   "lon": 112.6547077,
@@ -227916,8 +227897,8 @@
     "seamark:light:1:height": "13",
     "seamark:light:1:period": "5.0",
     "seamark:light:1:range": "8",
-    "seamark:light:1:sector_end": "351",
-    "seamark:light:1:sector_start": "276",
+    "seamark:light:1:sector_end": "276",
+    "seamark:light:1:sector_start": "351",
     "seamark:light:1:sequence": "0.5+(4.5)",
     "seamark:light:reference": "Q 1256",
     "seamark:name": "Tanjung Pasir",
@@ -228032,6 +228013,7 @@
     "seamark:beacon_lateral:category": "starboard",
     "seamark:beacon_lateral:colour": "green",
     "seamark:beacon_lateral:shape": "tower",
+    "seamark:beacon_lateral:system": "iala-a",
     "seamark:light:1:character": "Fl",
     "seamark:light:1:colour": "green",
     "seamark:light:1:height": "15",
@@ -228041,7 +228023,7 @@
     "seamark:light:reference": "F 2077",
     "seamark:name": "Tg. Batuangus",
     "seamark:type": "beacon_lateral",
-    "source": "US NGA Pub. 112. 2026-09-01"
+    "source": "US NGA Pub. 112. 2026-09-01;KP 467 Tahun 2015"
   }
 },
 {
@@ -228052,10 +228034,11 @@
   "tags": {
     "description": "Red and white beacon",
     "man_made": "beacon",
-    "name": "Pulau Sarena Kecil",
+    "name": "Pulau Sarena",
     "seamark:beacon_lateral:category": "channel_right",
     "seamark:beacon_lateral:colour": "red",
     "seamark:beacon_lateral:shape": "tower",
+    "seamark:beacon_lateral:system": "iala-a",
     "seamark:light:1:character": "Fl",
     "seamark:light:1:colour": "red",
     "seamark:light:1:height": "18",
@@ -228067,7 +228050,7 @@
     "seamark:topmark:colour": "red",
     "seamark:topmark:shape": "cylinder",
     "seamark:type": "beacon_lateral",
-    "source": "US NGA Pub. 112. 2026-09-01"
+    "source": "US NGA Pub. 112. 2026-09-01;KP 467 Tahun 2015"
   }
 },
 {
@@ -228111,7 +228094,7 @@
     "seamark:light:reference": "F 2079",
     "seamark:name": "Tg. Labuan Compenie",
     "seamark:type": "light_minor",
-    "source": "US NGA Pub. 112. 2026-09-01"
+    "source": "US NGA Pub. 112. 2026-09-01;KP 467 Tahun 2015"
   }
 },
 {
@@ -345168,7 +345151,6 @@
   "lon": -59.2226601,
   "tags": {
     "name": "Pg218-B(2+1)C/8",
-    "place": "locality",
     "seamark:beacon_lateral:category": "preferred_channel_starboard",
     "seamark:beacon_lateral:colour": "green;red;green",
     "seamark:beacon_lateral:colour_pattern": "horizontal",
@@ -345194,7 +345176,6 @@
   "lon": -59.2097070,
   "tags": {
     "name": "Tal212.5-B(4)C/",
-    "place": "locality",
     "seamark:light:character": "Fl",
     "seamark:light:colour": "white;green",
     "seamark:light:group": "4",
@@ -345213,7 +345194,6 @@
   "lon": -59.2059097,
   "tags": {
     "name": "Tal211.5-B(4)C/",
-    "place": "locality",
     "seamark:light:character": "Fl",
     "seamark:light:colour": "white;green",
     "seamark:light:group": "4",
@@ -549679,6 +549659,7 @@
     "seamark:beacon_lateral:category": "starboard",
     "seamark:beacon_lateral:colour": "green",
     "seamark:beacon_lateral:shape": "tower",
+    "seamark:beacon_lateral:system": "iala-a",
     "seamark:information": "The lighted aids of Indonesia are unreliable and may be extinguished, off station, missing or showing improper characteristics.",
     "seamark:light:1:character": "Fl",
     "seamark:light:1:colour": "green",
@@ -549694,7 +549675,7 @@
     "seamark:topmark:colour": "green",
     "seamark:topmark:shape": "cone, point up",
     "seamark:type": "beacon_lateral",
-    "source": "US NGA Pub. 112. 2026-09-01"
+    "source": "US NGA Pub. 112. 2026-09-01;KP 467 Tahun 2015"
   }
 },
 {
@@ -552570,6 +552551,26 @@
     "seamark:signal_station_warning:category": "storm",
     "seamark:type": "landmark",
     "source": "US NGA Pub 112. 2026"
+  }
+},
+{
+  "type": "node",
+  "id": 14410938274,
+  "lat": -6.8473038,
+  "lon": 112.5489498,
+  "tags": {
+    "description": "White beacon",
+    "man_made": "beacon",
+    "seamark:light:1:character": "Fl",
+    "seamark:light:1:colour": "white",
+    "seamark:light:1:height": "33",
+    "seamark:light:1:period": "6.0",
+    "seamark:light:1:range": "16",
+    "seamark:light:1:sequence": "0.4+(5.6)",
+    "seamark:light:reference": "Q 1157",
+    "seamark:name": "Ujung Pangkah",
+    "seamark:type": "light_major",
+    "source": "US NGA Pub. 112. 2026-09-01"
   }
 },
 {
@@ -567334,7 +567335,7 @@
   ],
   "tags": {
     "building": "yes",
-    "description": "This lighthouse was built by Dutch colonial. White round concrete tower, x- shaped topmark",
+    "description": "This lighthouse was built by Dutch colonial. White concrete tower",
     "man_made": "lighthouse",
     "name": "Sembilangan",
     "seamark:light:category": "upper",
@@ -567343,7 +567344,7 @@
     "seamark:light:group": "2",
     "seamark:light:height": "53",
     "seamark:light:period": "10.0",
-    "seamark:light:range": "20",
+    "seamark:light:range": "19",
     "seamark:light:reference": "Q 1158.2",
     "seamark:light:sequence": "1.0+(1.0)+1.0+(7.0)",
     "seamark:name": "Sembilangan",
