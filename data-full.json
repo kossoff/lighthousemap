@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-11-27T00:37:20Z",
+    "timestamp_osm_base": "2026-11-28T00:36:19Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10061,8 +10061,8 @@
 {
   "type": "node",
   "id": 472429281,
-  "lat": 40.0502140,
-  "lon": 3.8236521,
+  "lat": 40.0502156,
+  "lon": 3.8236377,
   "tags": {
     "seamark:light:1:character": "Fl",
     "seamark:light:1:colour": "white",
@@ -229538,6 +229538,67 @@
 },
 {
   "type": "node",
+  "id": 1293785835,
+  "lat": -8.4412738,
+  "lon": 119.5829956,
+  "tags": {
+    "description": "White beacon",
+    "man_made": "beacon",
+    "seamark:light:1:character": "Fl",
+    "seamark:light:1:colour": "white",
+    "seamark:light:1:height": "30",
+    "seamark:light:1:period": "3.0",
+    "seamark:light:1:range": "10",
+    "seamark:light:1:sequence": "0.5+(2.5)",
+    "seamark:light:reference": "Q 1315.5",
+    "seamark:name": "Pulau Gililawa Laut",
+    "seamark:type": "light_minor",
+    "source": "US NGA Pub. 112. 2026-09-01"
+  }
+},
+{
+  "type": "node",
+  "id": 1293785843,
+  "lat": -8.3902834,
+  "lon": 119.7970259,
+  "tags": {
+    "description": "White beacon",
+    "man_made": "beacon",
+    "seamark:light:1:character": "Fl",
+    "seamark:light:1:colour": "white",
+    "seamark:light:1:height": "28",
+    "seamark:light:1:period": "1.5",
+    "seamark:light:1:range": "11",
+    "seamark:light:1:sequence": "0.5+(1.0)",
+    "seamark:light:reference": "Q 1329",
+    "seamark:name": "Sabolan Kecil",
+    "seamark:type": "light_minor",
+    "source": "US NGA Pub. 112. 2026-09-01"
+  }
+},
+{
+  "type": "node",
+  "id": 1293785848,
+  "lat": -8.2414778,
+  "lon": 120.4282412,
+  "tags": {
+    "description": "White metal framework structure",
+    "height": "30",
+    "man_made": "beacon",
+    "seamark:light:1:character": "Fl",
+    "seamark:light:1:colour": "white",
+    "seamark:light:1:height": "30",
+    "seamark:light:1:period": "3.0",
+    "seamark:light:1:range": "15",
+    "seamark:light:1:sequence": "0.5+(2.5)",
+    "seamark:light:reference": "Q 1329.5",
+    "seamark:name": "Toro Besi",
+    "seamark:type": "light_major",
+    "source": "US NGA Pub. 112. 2026-09-01"
+  }
+},
+{
+  "type": "node",
   "id": 1293785891,
   "lat": -8.4743601,
   "lon": 121.6188772,
@@ -242021,7 +242082,7 @@
   "type": "node",
   "id": 1347582521,
   "lat": 45.6490580,
-  "lon": 13.7532961,
+  "lon": 13.7532957,
   "tags": {
     "seamark:light:character": "Fl",
     "seamark:light:colour": "green",
@@ -315661,27 +315722,6 @@
     "seamark:name": "Punta Socastro",
     "seamark:type": "light_minor",
     "source": "US NGA Pub. 113. 2011-10-20."
-  }
-},
-{
-  "type": "node",
-  "id": 1572680221,
-  "lat": 43.7357617,
-  "lon": -7.5253018,
-  "tags": {
-    "man_made": "lighthouse",
-    "name": "Faro de Roncadoiro",
-    "seamark:light:character": "Fl",
-    "seamark:light:colour": "white",
-    "seamark:light:height": "94",
-    "seamark:light:period": "7.5",
-    "seamark:light:range": "21",
-    "seamark:light:reference": "D 1678.8",
-    "seamark:light:sequence": "0.8+(6.7)",
-    "seamark:name": "Punta Roncadoira",
-    "seamark:type": "light_major",
-    "source": "US NGA Pub. 113. 2011-10-20.",
-    "wikidata": "Q12388285"
   }
 },
 {
@@ -425663,20 +425703,22 @@
 {
   "type": "node",
   "id": 5793653101,
-  "lat": 22.1025000,
-  "lon": 113.6008333,
+  "lat": 22.1036667,
+  "lon": 113.5875000,
   "tags": {
-    "seamark:buoy_isolated_danger:colour": "black;red;black",
-    "seamark:buoy_isolated_danger:colour_pattern": "horizontal",
-    "seamark:buoy_isolated_danger:shape": "pillar",
+    "seamark:buoy_special_purpose:category": "odas",
+    "seamark:buoy_special_purpose:colour": "yellow",
+    "seamark:buoy_special_purpose:shape": "super-buoy",
     "seamark:light:character": "Fl",
-    "seamark:light:colour": "white",
-    "seamark:light:group": "2",
-    "seamark:light:period": "6",
-    "seamark:light:sequence": "0.5+(1)+0.5+(4)",
-    "seamark:topmark:colour": "black",
-    "seamark:topmark:shape": "2 spheres",
-    "seamark:type": "buoy_isolated_danger"
+    "seamark:light:colour": "yellow",
+    "seamark:light:group": "5",
+    "seamark:light:period": "20",
+    "seamark:light:range": "3",
+    "seamark:light:sequence": "1+(1)+1+(1)+1+(1)+1+(1)+1+(11)",
+    "seamark:name": "ODAS(8)",
+    "seamark:topmark:colour": "yellow",
+    "seamark:topmark:shape": "x-shape",
+    "seamark:type": "buoy_special_purpose"
   }
 },
 {
@@ -552604,6 +552646,30 @@
   }
 },
 {
+  "type": "node",
+  "id": 14424172285,
+  "lat": 20.3013950,
+  "lon": 72.7712012,
+  "tags": {
+    "man_made": "beacon",
+    "seamark:information": "Shown Sep. 16 to Jun. 15",
+    "seamark:landmark:category": "tower",
+    "seamark:landmark:colour": "white",
+    "seamark:landmark:construction": "framework;metal",
+    "seamark:landmark:function": "light_support",
+    "seamark:light:character": "Fl",
+    "seamark:light:colour": "white",
+    "seamark:light:height": "12",
+    "seamark:light:period": "1.5",
+    "seamark:light:range": "5",
+    "seamark:light:reference": "F 0488",
+    "seamark:light:sequence": "0.3+(1.2)",
+    "seamark:name": "Maroli",
+    "seamark:type": "landmark",
+    "source": "US NGA Pub 112. 2026"
+  }
+},
+{
   "type": "way",
   "id": 26887425,
   "nodes": [
@@ -555469,6 +555535,7 @@
     "man_made": "lighthouse",
     "mhs:inscription_date": "1862",
     "name": "Phare de Cordouan",
+    "name:it": "Faro di Cordouan",
     "ref:FR:ANFR": "309285",
     "ref:admiralty": "D1300",
     "ref:aladin": "3300183",
@@ -557376,6 +557443,7 @@
     "seamark:light:reference": "C 2592",
     "seamark:light:sequence": "0.2+(4.1)+0.2+(4.1)+0.2+(8.2)",
     "seamark:name": "Arkona",
+    "seamark:type": "light_major",
     "start_date": "1902",
     "website": "https://kap-arkona.de/sehenswuerdigkeiten/tuerme/leuchtfeuer",
     "wikidata": "Q830182",
@@ -558989,6 +559057,49 @@
     "wikimedia_commons": "Category:Bibione lighthouse",
     "wikipedia": "it:Faro di Punta Tagliamento",
     "year_of_construction": "1913"
+  }
+},
+{
+  "type": "way",
+  "id": 192354416,
+  "nodes": [
+    2029119553,
+    14424708126,
+    14424708124,
+    2029119551,
+    14424708125,
+    1572680221,
+    14424708129,
+    2029119552,
+    14424708128,
+    14424708115,
+    14424708123,
+    14424708116,
+    2029119554,
+    14424708119,
+    14424708118,
+    14424708122,
+    14424708117,
+    14424708120,
+    14424708127,
+    14424708121,
+    2029119553
+  ],
+  "tags": {
+    "building": "yes",
+    "man_made": "lighthouse",
+    "name": "Faro de Roncadoiro",
+    "seamark:light:character": "Fl",
+    "seamark:light:colour": "white",
+    "seamark:light:height": "94",
+    "seamark:light:period": "7.5",
+    "seamark:light:range": "21",
+    "seamark:light:reference": "D 1678.8",
+    "seamark:light:sequence": "0.8+(6.7)",
+    "seamark:name": "Punta Roncadoira",
+    "seamark:type": "light_major",
+    "source": "US NGA Pub. 113. 2011-10-20.",
+    "wikidata": "Q12388285"
   }
 },
 {
@@ -561338,7 +561449,7 @@
     "seamark:light:7:sequence": "2+(1)+6+(1)",
     "seamark:light:reference": "C 2586",
     "seamark:name": "Gellen",
-    "seamark:type": "landmark",
+    "seamark:type": "light_major",
     "wikidata": "Q19946245",
     "wikipedia": "de:Leuchtfeuer Gellen"
   }
@@ -567010,7 +567121,7 @@
     "seamark:light:2:visibility": "intensified",
     "seamark:light:reference": "C 2588",
     "seamark:name": "Dornbusch",
-    "seamark:type": "landmark",
+    "seamark:type": "light_major",
     "start_date": "1887",
     "toilets:wheelchair": "no",
     "tourism": "attraction",
@@ -595787,6 +595898,126 @@
   "id": 13012329211,
   "lat": 43.5564987,
   "lon": -7.0419919
+},
+{
+  "type": "node",
+  "id": 1572680221,
+  "lat": 43.7357516,
+  "lon": -7.5253054
+},
+{
+  "type": "node",
+  "id": 2029119551,
+  "lat": 43.7357618,
+  "lon": -7.5253190
+},
+{
+  "type": "node",
+  "id": 2029119552,
+  "lat": 43.7357491,
+  "lon": -7.5252860
+},
+{
+  "type": "node",
+  "id": 2029119553,
+  "lat": 43.7357826,
+  "lon": -7.5253185
+},
+{
+  "type": "node",
+  "id": 2029119554,
+  "lat": 43.7357750,
+  "lon": -7.5252590
+},
+{
+  "type": "node",
+  "id": 14424708115,
+  "lat": 43.7357553,
+  "lon": -7.5252684
+},
+{
+  "type": "node",
+  "id": 14424708116,
+  "lat": 43.7357679,
+  "lon": -7.5252592
+},
+{
+  "type": "node",
+  "id": 14424708117,
+  "lat": 43.7357945,
+  "lon": -7.5252849
+},
+{
+  "type": "node",
+  "id": 14424708118,
+  "lat": 43.7357878,
+  "lon": -7.5252676
+},
+{
+  "type": "node",
+  "id": 14424708119,
+  "lat": 43.7357819,
+  "lon": -7.5252619
+},
+{
+  "type": "node",
+  "id": 14424708120,
+  "lat": 43.7357946,
+  "lon": -7.5252949
+},
+{
+  "type": "node",
+  "id": 14424708121,
+  "lat": 43.7357884,
+  "lon": -7.5253125
+},
+{
+  "type": "node",
+  "id": 14424708122,
+  "lat": 43.7357921,
+  "lon": -7.5252755
+},
+{
+  "type": "node",
+  "id": 14424708123,
+  "lat": 43.7357611,
+  "lon": -7.5252624
+},
+{
+  "type": "node",
+  "id": 14424708124,
+  "lat": 43.7357687,
+  "lon": -7.5253219
+},
+{
+  "type": "node",
+  "id": 14424708125,
+  "lat": 43.7357559,
+  "lon": -7.5253133
+},
+{
+  "type": "node",
+  "id": 14424708126,
+  "lat": 43.7357758,
+  "lon": -7.5253218
+},
+{
+  "type": "node",
+  "id": 14424708127,
+  "lat": 43.7357925,
+  "lon": -7.5253044
+},
+{
+  "type": "node",
+  "id": 14424708128,
+  "lat": 43.7357512,
+  "lon": -7.5252765
+},
+{
+  "type": "node",
+  "id": 14424708129,
+  "lat": 43.7357492,
+  "lon": -7.5252960
 },
 {
   "type": "node",
